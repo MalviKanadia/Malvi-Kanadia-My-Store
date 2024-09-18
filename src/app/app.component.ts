@@ -18,7 +18,7 @@ export class AppComponent {
     {id:3,productName:"lunchBox",quantity:2,color:"biege",giftWrap:true},
     {id:4,productName:"box",quantity:4,color:"purple",giftWrap:true}]
 
-  toggleGiftWrapStatus(user: User) void {
+  toggleGiftWrapStatus(user: User): void {
     user.giftWrap = !user.giftWrap;
   }
 }
