@@ -1,1 +1,11 @@
-<p>content-list-item works!</p>
+<div *ngIf="item" class="item-list">
+  <h2>Item List</h2>
+  <p><strong> ID:</strong>{{item.id}}</p>
+  <p><strong> ProductName:</strong>{{item.productName}}</p>
+  <p><strong> Quantity:</strong>{{item.quantity}}</p>
+  <p><strong> Color:</strong>{{item.color}}</p>
+  <p><strong> Gift Wrap:</strong>{{item.giftWrap ? 'Yes':'No'}}</p>
+</div>
+
+
+

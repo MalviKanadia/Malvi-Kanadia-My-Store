@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
 
+import {Component,Input} from '@angular/core';
+import {User} from "../Shared/Modules/user";
+import {NgIf} from "@angular/common";
 @Component({
   selector: 'app-content-list-item',
   standalone: true,
-  imports: [],
+  imports: [
+    NgIf,
+  ],
   templateUrl: './content-list-item.component.html',
   styleUrl: './content-list-item.component.css'
 })
 export class ContentListItemComponent {
+  @Input() item?: User;
 
 }
