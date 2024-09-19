@@ -16,6 +16,7 @@ import {ContentListItemComponent} from "../content-list-item/content-list-item.c
 })
 export class ContentListComponent {
 
+  displayedColumns = ['id','productName', 'quantity', 'color', 'giftWrap'];
 
   userList: User[] =[
     {id: 1, productName:"WaterBottle", quantity:1, color:"cyan", giftWrap:false,},

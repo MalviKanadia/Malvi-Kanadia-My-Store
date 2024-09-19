@@ -1,1 +1,14 @@
-<p>content-list works!</p>
+<div>
+  <table>
+    <tbody>
+    <tr *ngFor="let item of userList" >
+      <td>{{item.id}}</td>
+      <td>{{item.productName}}</td>
+      <td>{{item.quantity}}</td>
+      <td>{{item.color}}</td>
+      <td>{{item.giftWrap ? 'Yes':'No'}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
