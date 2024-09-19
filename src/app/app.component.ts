@@ -7,7 +7,7 @@ import {ContentListComponent}  from "./content-list/content-list.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NgForOf,JsonPipe,ContentListComponent],
+  imports: [RouterOutlet, NgForOf, JsonPipe, ContentListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

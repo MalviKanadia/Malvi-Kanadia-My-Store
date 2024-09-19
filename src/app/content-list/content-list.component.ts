@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import {User} from "../Shared/Modules/user";
-import {NgFor} from "@angular/common";
+import {NgForOf} from "@angular/common";
 import {ContentListItemComponent} from "../content-list-item/content-list-item.component";
 
 @Component({
   selector: 'app-content-list',
   standalone: true,
   imports: [
-    NgFor,
-    NgFor,
+    NgForOf,
+    NgForOf,
     ContentListItemComponent,
   ],
   templateUrl: './content-list.component.html',
